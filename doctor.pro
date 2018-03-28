@@ -25,44 +25,33 @@ DEFINES += QT_DEPRECATED_WARNINGS\
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp \
-    armcircuitdialog.cpp \
     qcustomplot.cpp \
     qcustomlabel.cpp \
     login.cpp \
     clientthread.cpp \
     savefile.cpp \
-    checksensor.cpp \
     radarwidget.cpp \
     diagnosis.cpp \
     features.cpp \
     figurecontrol.cpp \
-    setsensor.cpp \
     vibrationdialog.cpp
 
-HEADERS  += mainwindow.h \
-    armcircuitdialog.h \
-    boomcircuitdialog.h \
-    bucketcircuitdialog.h \
+HEADERS  += \
     swingcircuitdialog.h \
     travelcircuitdialog.h \
     pumpcircuitdialog.h \
     qcustomplot.h \
     qcustomlabel.h \
-    faultdiagnosis.h \
     login.h \
     clientthread.h \
     savefile.h \
-    checksensor.h \
     radarwidget.h \
     diagnosis.h \
     features.h \
     figurecontrol.h \
-    setsensor.h \
     vibrationdialog.h
 
-FORMS    += mainwindow.ui \
-    armcircuitdialog.ui \
+FORMS    += \
     login.ui \
     vibrationdialog.ui
 
